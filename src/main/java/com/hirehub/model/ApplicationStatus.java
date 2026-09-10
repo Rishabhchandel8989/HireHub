@@ -1,8 +1,5 @@
 package com.hirehub.model;
 
-/**
- * Lifecycle statuses for a job application.
- */
 public enum ApplicationStatus {
     APPLIED,
     UNDER_REVIEW,

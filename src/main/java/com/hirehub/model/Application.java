@@ -8,9 +8,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
-/**
- * Tracks a CANDIDATE's application to a specific JOB.
- */
+
 @Entity
 @Table(name = "applications",
         uniqueConstraints = @UniqueConstraint(columnNames = {"job_id", "candidate_id"}))
